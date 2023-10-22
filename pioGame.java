@@ -4,7 +4,6 @@ class Main {
     public static void main(String[] args) {
         Random rand = new Random();
         Player player = new Player();
-        player.setName("Maciek");
         int number;
         int guess;
 
