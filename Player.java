@@ -1,14 +1,14 @@
 import java.util.Random;
 
 public class Player {
-
     private Random brain = new Random();
 
     private String name = "User";
 
-    public Player() {} //przeciazenie
+    public Player() {
+    } // przeciazenie
 
-    public Player(String name){ //konstruktor
+    public Player(String name) {
         setName(name);
     }
 
