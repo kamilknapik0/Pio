@@ -1,9 +1,13 @@
 import java.util.Random;
 
-class Main {
+public class Main {
     public static void main(String[] args) {
+
         Random rand = new Random();
-        Player player = new Player();
+
+        // Player player = new Player();
+        PlayerHuman player = new PlayerHuman("Jeff");
+
         int number;
         int guess;
 
